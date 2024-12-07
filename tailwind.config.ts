@@ -8,9 +8,14 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        Poppins: ["Poppins", "sans"],
+        Inter: ["Inter", "sans"]
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "#DB4444",
       },
     },
   },
